@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postagem</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <p id="loading">Carregando</p>
+    <div id="post" class="ocultar">
+        <a href="index.html">Voltar</a>
+        <div id="post-container"></div>
+        <h2>Comentários</h2>
+        <form id="coment-form">
+            <label>E-mail</label>
+            <input type="email" name="email" id="email">
+            <br>
+            <label>Comentário</label>
+            <textarea name="coment" id="coment"></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+        <div id="coments-container"></div>
+    </div>
+    <script src="js/content_postagem.js"></script>
+</body>
+</html>
